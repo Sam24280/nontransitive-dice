@@ -68,7 +68,7 @@ class GameEngine {
 
     console.log(`Type 'help' for probability table or 'exit' to quit.`);
     const cmd = prompt(`> `);
-    if (cmd === 'help') render(this.diceList);
+    if (cmd === 'help') ProbabilityTableRenderer.render(this.diceList);
   }
 
   selectComputerDice(userChoice = null) {
