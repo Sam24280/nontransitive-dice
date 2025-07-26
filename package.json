@@ -1,0 +1,19 @@
+{
+  "name": "nontransitive-dice",
+  "version": "1.0.0",
+  "description": "A provably fair non-transitive dice CLI game built in Node.js",
+  "main": "game.js",
+  "type": "module",
+  "scripts": {
+    "start": "node game.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "crypto-js": "^4.2.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
+
